@@ -5,12 +5,13 @@ body {
   font-size: 22px;
   background-color: whitesmoke;
 
-  & > div:first-child {
-    margin-top: 0;
-  }
 
   & > div {
     margin-top: 100px;
+  }
+
+  & > div:first-child {
+    margin-top: 0;
   }
 }
 
@@ -118,6 +119,7 @@ h2 {
     }
   }
 }
+
 .cards-wrapper {
   display: flex;
   flex-direction: row;
@@ -206,21 +208,27 @@ h2 {
 footer {
   height: 100vh;
   background-color: black;
-  display: flex;
+
+
+  & .container {
+    display: flex;
+    flex-direction: row;
+  }
 
   .biba {
-    padding: 65px;
-    h2 {
-      color: white;
-      margin-bottom:32px;
-    }
+    width: 513px;
+    padding-top: 96px;
+    padding-left: 65px;
+    padding-right: 61px;
+    color: white;
 
-    p {
-      color: white;
+    h2 {
+      margin-bottom: 32px;
     }
 
     .social {
       display: flex;
+      padding-top: 52px;
 
       a {
         display: flex;
@@ -241,6 +249,43 @@ footer {
         &:last-child {
           margin-right: 0;
         }
+      }
+    }
+  }
+
+  .boba {
+    margin-top: 86px;
+    margin-right: 55px;
+    margin-bottom: 114px;
+    background-color: white;
+    width: 746px;
+    height: 668px;
+
+    h2 {
+      text-align: center;
+      margin-top: 114px;
+    }
+
+    .margins {
+    padding-left: 200px;
+
+      p{
+        margin-top: 45px;
+      }
+
+      input{
+        width: 345.68px;
+        height: 51px;
+        background: rgba(214, 214, 214, 0.1);
+        border: 1px solid #CFCFCF;
+        box-sizing: border-box;
+        border-radius: 10px;
+      }
+
+      .submitbtn {
+        margin-top: 52px;
+        background:#B90B1B;;
+        color:#fff;
       }
     }
   }
