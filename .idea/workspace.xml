@@ -3,6 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="5c33cf67-5bee-4f00-9903-340af3c600ed" name="Default Changelist" comment="UGABUGA">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/style/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/style/main.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,7 +34,7 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.stylelint" value="C:\WebstormProjects\maurizio-practice\node_modules\stylelint" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="settings.editor.selected.configurable" value="settings.javascript.prettier" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RunManager">
@@ -56,7 +59,10 @@
       <updated>1606853692928</updated>
       <workItem from="1606853696228" duration="365000" />
       <workItem from="1606854078331" duration="552000" />
-      <workItem from="1606854647471" duration="13708000" />
+      <workItem from="1606854647471" duration="18999000" />
+      <workItem from="1606938166917" duration="4581000" />
+      <workItem from="1607409418455" duration="10246000" />
+      <workItem from="1607527785281" duration="3292000" />
     </task>
     <task id="LOCAL-00001" summary="Kakaxi">
       <created>1606878842395</created>
@@ -107,7 +113,14 @@
       <option name="project" value="LOCAL" />
       <updated>1606883027991</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="UGABUGA">
+      <created>1606884049786</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1606884049786</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -123,10 +136,15 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Kakaxi" />
     <MESSAGE value="UGABUGA" />
     <option name="LAST_COMMIT_MESSAGE" value="UGABUGA" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>

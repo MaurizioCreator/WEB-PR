@@ -6,6 +6,7 @@ body {
   background-color: whitesmoke;
 
 
+
   & > div {
     margin-top: 100px;
   }
@@ -28,7 +29,7 @@ h2 {
 }
 
 .container {
-  width: 1440px;
+  max-width: 1440px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -206,7 +207,7 @@ h2 {
 }
 
 footer {
-  height: 100vh;
+  height: 115vh;
   background-color: black;
 
 
@@ -230,6 +231,7 @@ footer {
       display: flex;
       padding-top: 52px;
 
+
       a {
         display: flex;
         align-items: center;
@@ -239,6 +241,7 @@ footer {
         background-color: #e9c6c9;
         border-radius: 10px;
         margin-right: 20px;
+        box-shadow: 0 0 5px 1px #e9c6c9;
 
         svg {
           width: 25px;
@@ -270,7 +273,8 @@ footer {
     padding-left: 200px;
 
       p{
-        margin-top: 45px;
+        margin-top: 27px;
+        margin-bottom: 9px;
       }
 
       input{
@@ -283,9 +287,15 @@ footer {
       }
 
       .submitbtn {
-        margin-top: 50px;
-        background:#B90B1B;;
-        color:#fff;
+        margin-top: 52px;
+        width: 345.68px;
+        height: 51px;
+        left: 839px;
+        top: 13773px;
+        background: #B90B1B;
+        border:0px;
+        border-radius: 16px;
+        color: white;
       }
     }
   }

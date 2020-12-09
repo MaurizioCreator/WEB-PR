@@ -10,6 +10,10 @@
     href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
     rel="stylesheet">
   <title>Спасём сибирские леса</title>
+    <script>function sendForm(e){
+        e.preventDefault()
+        fetch ('api/contact',{method:'POST'})
+    }</script>
 </head>
 
 <body>
@@ -233,15 +237,15 @@
         <div>
           <h2>Связаться с нами</h2>
         </div>
-          <div class="margins" >
+          <form class="margins" >
               <p>Имя</p>
-              <input type="text" size="40">
+              <input type="text"  size="40">
               <p>Телефон</p>
-              <input type="text" size="40">
+              <input type="tel" size="40">
               <p>Email</p>
-              <input type="text" size="40">
-              <input type="submit" class="submitbtn" value="Отправить">
-          </div>
+              <input type="email" size="40">
+              <button type="submit" class="submitbtn" onClick="sendForm()" >Отправить</button>
+          </form>
       </div>
     </div>
   </footer>
