@@ -1,7 +1,10 @@
 const express = require('express');
+const cors = require('express-cors')
 const nodemailer = require("nodemailer");
 
+
 const adminEmails = ['danil.tankoff@yandex.ru', 'liberalvlad@gmail.com'];
+
 
 const generateAdminTemplate = (data) => {
     return `
@@ -33,6 +36,11 @@ let transporter = nodemailer.createTransport({
 
 const app = express();
 
+app.use(cors({
+    allowedOrigins: [
+        'localhost:9000'
+    ]
+}))
 app.use(express.json())
 
 app.post('/api/contact', async (req, res) => {

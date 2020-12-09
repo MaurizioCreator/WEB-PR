@@ -58,6 +58,7 @@
   ],
   "dependencies": {
     "express": "^4.17.1",
+    "express-cors": "0.0.3",
     "mail": "^0.2.3",
     "nodemailer": "^6.4.16"
   }
